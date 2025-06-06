@@ -37,6 +37,9 @@
 
     --radius: 0.5rem;
 
+    --logo-red: 0 84% 60%;
+    --logo-green: 120 60% 50%;
+
     --sidebar-background: 220 25% 98%;
     --sidebar-foreground: 220 20% 20%;
     --sidebar-primary: 248 95% 70%;
@@ -76,6 +79,9 @@
     --input: 220 25% 15%;
     --ring: 248 95% 70%;
 
+    --logo-red: 0 84% 60%;
+    --logo-green: 120 60% 50%;
+
     --sidebar-background: 220 25% 8%;
     --sidebar-foreground: 220 25% 85%;
     --sidebar-primary: 248 95% 70%;
@@ -102,6 +108,10 @@
 @layer components {
   .gradient-text {
     @apply bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent;
+  }
+  
+  .logo-gradient {
+    background: linear-gradient(135deg, hsl(var(--logo-red)), hsl(var(--logo-green)));
   }
   
   .glass-effect {

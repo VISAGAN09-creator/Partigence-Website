@@ -22,7 +22,7 @@ const Navigation = () => {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2 group">
-            <div className="w-8 h-8 bg-gradient-to-r from-primary to-accent rounded-lg flex items-center justify-center group-hover:animate-pulse-glow transition-all duration-300">
+            <div className="w-8 h-8 bg-gradient-to-r from-logo-red to-logo-green rounded-lg flex items-center justify-center group-hover:animate-pulse-glow transition-all duration-300">
               <Brain className="w-5 h-5 text-white" />
             </div>
             <span className="text-xl font-bold gradient-text">MyPersonalAI</span>

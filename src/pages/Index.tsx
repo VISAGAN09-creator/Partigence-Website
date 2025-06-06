@@ -91,10 +91,10 @@ const Index = () => {
       <section className="py-16 px-4 relative overflow-hidden">
         <div className="container mx-auto text-center">
           <div className="relative">
-            <div className="w-32 h-32 mx-auto bg-gradient-to-r from-primary to-accent rounded-full flex items-center justify-center animate-float">
+            <div className="w-32 h-32 mx-auto bg-gradient-to-r from-logo-red to-logo-green rounded-full flex items-center justify-center animate-float">
               <Brain className="w-16 h-16 text-white" />
             </div>
-            <div className="absolute inset-0 w-32 h-32 mx-auto bg-gradient-to-r from-primary to-accent rounded-full animate-pulse-glow opacity-50"></div>
+            <div className="absolute inset-0 w-32 h-32 mx-auto bg-gradient-to-r from-logo-red to-logo-green rounded-full animate-pulse-glow opacity-50"></div>
           </div>
         </div>
       </section>
@@ -116,7 +116,7 @@ const Index = () => {
               <div key={index} className="relative group">
                 <Card className="h-full border-2 border-transparent hover:border-primary/20 transition-all duration-300 hover:shadow-lg hover:shadow-primary/10">
                   <CardContent className="p-8 text-center">
-                    <div className="w-16 h-16 mx-auto bg-gradient-to-r from-primary to-accent rounded-full flex items-center justify-center mb-6 group-hover:animate-pulse-glow transition-all duration-300">
+                    <div className="w-16 h-16 mx-auto bg-gradient-to-r from-logo-red to-logo-green rounded-full flex items-center justify-center mb-6 group-hover:animate-pulse-glow transition-all duration-300">
                       <step.icon className="w-8 h-8 text-white" />
                     </div>
                     
